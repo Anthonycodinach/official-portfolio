@@ -1,5 +1,8 @@
 * {
-    margin:0; padding:0; font-size:100%; line-height:1;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -7,22 +10,35 @@ body {
     background-color: lightblue;
 }
 
-header{
+header {
     background-color: darkblue;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header-image {
+#header-image {
     width: 100%;
     height: 200px;
     border-bottom: 1px solid black;
-
+    background-image: url('../Images/Copy-of-Twitch-Banner.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.subtitle {
+    background-color: lightblue;
+    font-size: 60px;
+    height: fit-content;
+}
+
 #header-links {
     display: flex;
-   justify-content: flex-end;
-   list-style-type: none;
+    justify-content: flex-end;
+    list-style-type: none;
 }
 
 .header-links a {
@@ -34,7 +50,7 @@ header{
     font-style: oblique;
 }
 
-.left-corner-header{
+.left-corner-header {
     color: black;
     font-size: 40px;
     width: 20%;
@@ -43,20 +59,116 @@ header{
 }
 
 .headshot {
-    height: 100px;
-    width: 100px;
-    margin-top: 50px;
+    width: 200px;
+}
+
+.about-me-cointainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 0vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#about-me {
+    font-size: 60px;
+    border-right: 5px solid black;
+    padding-right: 30px;
+    height: 19vh;
+    width: 180px;
+    margin-top: 60px;
+}
+
+.paragraph-div {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 60px;
+}
+
+.paragraph-1 {
+    margin-bottom: 20px;}
+
+.work-cointainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin-right: 0;
+    height: 0vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#work {
+    font-size: 60px;
+    border-right: 5px solid black;
+    padding-right: 30px;
+    height: 75vh;
+    width: 180px;
+    margin-top: 60px;
 }
 
 .large-image {
-    height: 400px;
-    width: 700px;
+    height: 500px;
+    width: 900px;
+    border: 5px solid black;
+    display: block;
 }
 
-.footer-links {
+.contact-me-cointainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+.footer-links a {
     display: inline;
     font-size: 25px;
     color: white;
     padding: 0px 20px;
-    text-decoration:none;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    justify-content: space-between;
+}
+
+.small-buttons {
+    height: 150px;
+    width: 400px;
+    display: inline;
+    margin-top: 25px;
+    border: 5px solid black;
+}
+
+.contact-me-title-cointainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin-right: 0;
+    height: 0vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#contact-me {
+    font-size: 60px;
+    border-right: 5px solid black;
+    padding-right: 30px;
+    height: 10vh;
+    width: 280px;
+    margin-top: 60px;
 }
