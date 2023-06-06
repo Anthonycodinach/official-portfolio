@@ -5,11 +5,12 @@
     line-height: 1;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/* Styles entire body */   
 body {
     background-color: lightblue;
 }
 
+/* Styles header*/   
 header {
     background-color: darkblue;
     width: 100%;
@@ -19,6 +20,7 @@ header {
     align-items: center;
 }
 
+/* Styles header image */   
 #header-image {
     width: 100%;
     height: 200px;
@@ -29,18 +31,21 @@ header {
     align-items: center;
 }
 
+/* Styles subtitle */   
 .subtitle {
     background-color: lightblue;
     font-size: 60px;
     height: fit-content;
 }
 
+/* Styles nav cointainer*/   
 #header-links {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
 }
 
+/* Styles links */   
 .header-links a {
     display: inline;
     font-size: 25px;
@@ -50,6 +55,7 @@ header {
     font-style: oblique;
 }
 
+/* Styles name header */   
 .left-corner-header {
     color: black;
     font-size: 40px;
@@ -58,10 +64,11 @@ header {
     padding-left: 25px;
 }
 
+/* Styles headshot size */   
 .headshot {
     width: 200px;
 }
-
+/* Sets left section for about me */   
 .about-me-cointainer {
     display: flex;
     flex-wrap: wrap;
@@ -72,6 +79,7 @@ header {
     margin-left: 100px;
 }
 
+/* styles about me section */ 
 #about-me {
     font-size: 60px;
     border-right: 5px solid black;
@@ -80,7 +88,7 @@ header {
     width: 180px;
     margin-top: 60px;
 }
-
+/* Sets specs for paragraph div */ 
 .paragraph-div {
     width: 50%;
     justify-content: center;
@@ -90,9 +98,11 @@ header {
     margin-top: 60px;
 }
 
+/* sets sacing between about me content */ 
 .paragraph-1 {
     margin-bottom: 20px;}
 
+/* Sets work cointainer specs */ 
 .work-cointainer {
     display: flex;
     flex-wrap: wrap;
@@ -103,16 +113,17 @@ header {
     align-items: center;
     margin-left: 100px;
 }
-
+/* Styles work section*/ 
 #work {
     font-size: 60px;
     border-right: 5px solid black;
     padding-right: 30px;
-    height: 75vh;
+    height: 77vh;
     width: 180px;
     margin-top: 60px;
 }
 
+/* styles for project 1 */ 
 .large-image {
     height: 500px;
     width: 900px;
@@ -120,6 +131,7 @@ header {
     display: block;
 }
 
+/* Sets specs for contact me cointainer */ 
 .contact-me-cointainer {
     display: flex;
     flex-wrap: wrap;
@@ -129,6 +141,7 @@ header {
     margin-left: 220px;
 }
 
+/* Sets styles for footer nav links */ 
 .footer-links a {
     display: inline;
     font-size: 25px;
@@ -138,6 +151,7 @@ header {
     font-weight: bold;
 }
 
+/* Sets specs for button cointainer */ 
 .button-div {
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +159,7 @@ header {
     justify-content: space-between;
 }
 
+/* styles size for buttons */ 
 .small-buttons {
     height: 150px;
     width: 400px;
@@ -153,6 +168,7 @@ header {
     border: 5px solid black;
 }
 
+/* Sets specs for contact me cointainer */ 
 .contact-me-title-cointainer {
     display: flex;
     flex-wrap: wrap;
@@ -163,7 +179,7 @@ header {
     align-items: center;
     margin-left: 50px;
 }
-
+/* Styles contact me section */ 
 #contact-me {
     font-size: 60px;
     border-right: 5px solid black;
